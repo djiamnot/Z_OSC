@@ -49,10 +49,10 @@ public:
 	Z_OSCClient();
 	~Z_OSCClient();
 	
-	uint16_t setMessage( Z_OSCMessage::Z_OSCMessage *mes );
+	uint16_t setMessage( Z_OSCMessage *mes );
 	
 	uint16_t send();
-	uint16_t send(Z_OSCMessage::Z_OSCMessage *mes);
+	uint16_t send(Z_OSCMessage *mes);
 			
 };
 

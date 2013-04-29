@@ -116,7 +116,7 @@ int16_t Z_OSCServer::decodeProcess(){
 }
 
 
-Z_OSCMessage::Z_OSCMessage *Z_OSCServer::getMessage(){
+Z_OSCMessage *Z_OSCServer::getMessage(){
 
 	return &message;
 }

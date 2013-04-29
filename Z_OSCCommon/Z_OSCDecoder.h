@@ -30,7 +30,7 @@ private:
 	
 public:
 	
-	int16_t decode( Z_OSCMessage::Z_OSCMessage *mes ,const uint8_t *recData );
+	int16_t decode( Z_OSCMessage *mes ,const uint8_t *recData );
 		
 };
 

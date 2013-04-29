@@ -26,7 +26,7 @@
 
 
 
-int16_t Z_OSCEncoder::encode( Z_OSCMessage::Z_OSCMessage *mes ,uint8_t *sendData ){
+int16_t Z_OSCEncoder::encode( Z_OSCMessage *mes ,uint8_t *sendData ){
 	
 	
 	uint8_t *packStartPtr=sendData;

@@ -55,7 +55,7 @@ public:
 	bool available();
 	
 	
-	Z_OSCMessage::Z_OSCMessage *getMessage();
+	Z_OSCMessage *getMessage();
 
 
 };

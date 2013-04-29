@@ -25,7 +25,7 @@
 
 
 
-int16_t Z_OSCDecoder::decode( Z_OSCMessage::Z_OSCMessage *mes ,const uint8_t *recData ){
+int16_t Z_OSCDecoder::decode( Z_OSCMessage *mes ,const uint8_t *recData ){
 	
 	
 //===========  BIN -> Z_OSC Address(String) Decode   ===========

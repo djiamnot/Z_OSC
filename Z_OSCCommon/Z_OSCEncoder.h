@@ -32,7 +32,7 @@ private:
 	
 public:
 	
-	int16_t encode( Z_OSCMessage::Z_OSCMessage *mes ,uint8_t *sendData );
+	int16_t encode( Z_OSCMessage *mes ,uint8_t *sendData );
 	
 };
 
